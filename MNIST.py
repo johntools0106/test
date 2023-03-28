@@ -72,7 +72,8 @@ class Net(nn.Module):
 network = Net()
 optimizer = optim.SGD(
     network.parameters(),
-    lr=learning_rate, momentum=momentum)
+    lr=learning_rate, momentum=momentum
+    )
 
 train_losses = []
 train_counter = []
