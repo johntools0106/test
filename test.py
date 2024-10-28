@@ -60,3 +60,6 @@ plt.plot(x, y, "bo", label="Original data")
 plt.plot(x, predicted, "r", label="Fitted line")
 plt.legend()
 plt.show()
+
+
+print("hello")
