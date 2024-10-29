@@ -5,7 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-print("safsf")
 # 设置随机种子
 np.random.seed(0)
 torch.manual_seed(0)
