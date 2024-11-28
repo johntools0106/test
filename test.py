@@ -64,4 +64,3 @@ plt.show()
 
 
 print("hello")
-print("123")
