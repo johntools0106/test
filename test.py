@@ -65,5 +65,3 @@ plt.show()
 
 print("hello")
 
-
-print("it is test file")
