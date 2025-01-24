@@ -122,7 +122,7 @@ def test(dataloader,model,loss_fn):
     correct /= size
     print(f'Test result: \n Accuracy:{(100*correct)}%,Avg loss: {test_loss}')
 
-epochs = 10
+epochs = 1
 for t in range(epochs):
     print(f'Epochs {t+1}\n------')
     train(train_dataloader,model,loss_fn, optimizer)
